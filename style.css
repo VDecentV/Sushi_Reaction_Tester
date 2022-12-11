@@ -103,11 +103,8 @@ body {
 }
 
 #reactionTime {
-  position: relative;
-  top: -100%;
-  left: 0%;
   font: 4rem bold;
-  color: white;
+  color: black;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
 }
