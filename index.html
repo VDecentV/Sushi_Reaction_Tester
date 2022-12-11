@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reaction Test</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav id="top-nav">
+            <ul id="nav-links">
+                <li><form style="display:inline" action="index.html" method="get"><button class="active">Home</button></form></li>
+                <li><form style="display:inline" action="index.html" method="get"><button>Sushi Images</button></form></li>
+                <li><form style="display:inline" action="index.html" method="get"><button>Contact Us</button></form></li>
+            </ul>
+        </nav>
+
+        <div id="content">
+            <div id="container-1">
+                <div id="buttons">
+                    <button onclick="start_test()" id="start">Start</button>
+                    <button onclick="reset()" id="reset">Reset</button>
+                </div>
+                
+                <div id="reactionBox">
+                  <button onclick="status()" id="click"></button>
+                  <div id="reactionTime">Time: </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

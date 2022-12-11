@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+
+body {
+  margin: 0%;
+}
+
+#top-nav {
+  font-size: 0;
+  background-color: #474747;
+}
+
+#top-nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#top-nav li {
+  list-style: none;
+  display: inline-block;
+  border-right: 0.1rem solid white;
+  border-bottom: 0.25rem solid #d0d7db;
+}
+
+#top-nav li:hover {
+  border-bottom: 0.5rem solid #d0d7db;
+}
+
+
+#top-nav button {
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 0.75rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  background-color: #3069f0;
+  border: none;
+}
+
+#top-nav .active {
+  background-color: #f0303a;
+}
+
+#top-nav button:hover {
+  background-color: #1a4aba;
+}
+
+#top-nav .active:hover {
+  background-color: #ad131b;
+}
+
+#container-1 {
+  margin-top: 2rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+#buttons {
+  float: left;
+  position: relative;
+  z-index: 10;
+}
+
+#buttons button {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  font-size: 1.15rem;
+  background-color: #298ccf;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#reactionBox {
+  text-align: center;
+  width: 30rem;
+  height: 30rem;
+}
+
+#click {
+  width: 30rem;
+  height: 30rem;
+  border: none;
+  cursor: pointer;
+  background-color: #dbd9d9;
+}
+
+#reactionTime {
+  position: relative;
+  top: -100%;
+  left: 0%;
+  font: 4rem bold;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
